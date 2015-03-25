@@ -1,12 +1,10 @@
 # Site settings
 title: Brian's Weblog
-email: robotmachine+sid@gmail.com
+email: robotmachine@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     This is a place on the internet where someone you
     probably don't know writes words.
-    
-    Sorry about that.
-baseurl: "/~robotmachine/" # the subpath of your site, e.g. /blog/
+baseurl: "/~robotmachine" # the subpath of your site, e.g. /blog/
 url: "http://silenceisdefeat.net" # the base hostname & protocol for your site
 twitter_username: robotmachine
 github_username:  robotmachine
