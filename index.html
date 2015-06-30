@@ -4,17 +4,10 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Bullshit Words</h1>
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-          {{ post.excerpt }}
+	A post called <a href="{{ post.url | prepend: site.baseurl }}">"{{ post.title }}"</a> was written on {{ post.date | date: "%-d %b, %Y" }} and is about {{ post.excerpt }}.
       </li>
     {% endfor %}
   </ul>
