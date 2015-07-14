@@ -7,7 +7,7 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-	A post called <a href="{{ post.url | prepend: site.baseurl }}">"{{ post.title }}"</a> was written on {{ post.date | date: "%-d %b, %Y" }} and is about {{ post.excerpt }}.
+	Post.Title=<a href="{{ post.url | prepend: site.baseurl }}">"{{ post.title }}"</a> || Post.Date={{ post.date | date: "%-d %b, %Y" }} || Post.Summary={{ post.excerpt }}
       </li>
     {% endfor %}
   </ul>
