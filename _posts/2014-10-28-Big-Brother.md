@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Big Brother"
-excerpt: The new baby and how I felt when he was born
+excerpt: How I felt when the new baby was born.
 date:   2014-06-15 22:00:00
 categories: kids opal
 ---
