@@ -1,15 +1,19 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-	<a href="{{ post.url | prepend: site.baseurl }}">"{{ post.title }}"</a> .:. {{ post.date | date: "%-d %b, %Y" }} .:. {{ post.excerpt }}  
-      </li>
-    {% endfor %}
-  </ul>
-
-</div>
+   <div class='ltcol'>
+      <p>Hi. My name is Brian.<br><br>
+      I have made a few things which is neat, I guess. If you can use them then that is neater. Also, I have a blog because life is too short to not be able to say "I have a blog."</p>
+    </div>
+    <div class='rtcol'>
+       <h2>Projects</h2>
+           <span class='objtitle'><a href="https://robotmachine.github.io/QuickLedger">QuickLedger</a></span><br>
+           <span class='objdesc'>&bull; <a href="http://ledger-cli.org">Ledger</a> Entry Tool</a></span><br>
+           <span class='objtitle'><a href="https://robotmachine.github.io/PushText">PushText</a></span><br>
+           <span class='objdesc'>&bull; CLI Tool for <a href="http://pushover.net">Pushover</a></span><br>
+         
+       <h2>Personal</h2>
+           <span class='objtitle'><a href="/blog">B&nbsp;l&nbsp;o&nbsp;g</a></span><br>
+           <span class='objtitle'><a href="https://twitter.com/robotmachine" target="_blank">@robotmachine on Twitter</a></span><br>
+           <span class='objtitle'><a href="https://keybase.io/robotmachine" target="_blank">robotmachine on Keybase</a></span><br>
+    </div>

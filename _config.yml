@@ -1,11 +1,10 @@
 # Site settings
-title: Brian's Bullshit Words
+title: "[ robot ] + [ machine ]"
 email: robotmachine@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
     This is a place on the internet where someone you
     probably don't know writes words.
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "http://robotmachine.github.io" # the base hostname & protocol for your site
+url: "https://robotmachine.github.io"
 twitter_username: robotmachine
 github_username:  robotmachine
 

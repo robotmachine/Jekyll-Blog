@@ -1,0 +1,67 @@
+/* Written by Brian Carter */
+@import url(//cdn.jsdelivr.net/font-hack/2.013/css/hack-extended.min.css);
+
+body {
+	color: #657b83;
+	background-color: #fdf6e3;
+	font-family: Hack, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+div.container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.header {
+	text-align: justify;
+}
+
+div.rtcol {
+	margin-left: 350px;
+	padding-left: 50px;
+}
+
+div.ltcol {
+	float: left;
+	width: 350px;
+}
+
+div.footer {
+	clear: both;
+	float: left;
+	position: fixed;
+	bottom: 10px;
+}
+
+span.objtitle {
+	display: inline-block;
+	font-size: +1;
+}
+
+span.objdesc {
+	display: inline-block;
+	text-indent: 15px;
+}
+
+/* Links */
+a:link {
+	color: #6c71c4;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #6c71c4;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #268bd2;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #268bd2;
+	text-decoration: underline;
+}
