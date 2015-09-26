@@ -5,8 +5,7 @@ description: >
     This is a place on the internet where someone you
     probably don't know writes words.
 url: "https://robotmachine.github.io"
-twitter_username: robotmachine
-github_username:  robotmachine
+username: robotmachine
 
 # Build settings
 markdown: kramdown

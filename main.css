@@ -4,8 +4,24 @@
 body {
 	color: #657b83;
 	background-color: #fdf6e3;
+	background-image: url("/bkg.gif");
 	font-family: Hack, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
+}
+
+div.box {
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	background-color:#fdf6e3;
+	line-height:150%;
+	border:0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0 0 6px #eee8d5;
+	-webkit-box-shadow: 0 0 6px #eee8d5;
+	-moz-box-shadow: 0 0 6px #eee8d5;
 }
 
 div.container {
@@ -15,12 +31,14 @@ div.container {
 }
 
 div.header {
-	text-align: justify;
+	text-align: center;
+	padding-bottom: 15px;
 }
 
 div.rtcol {
 	margin-left: 350px;
 	padding-left: 50px;
+	text-align: right;
 }
 
 div.ltcol {
