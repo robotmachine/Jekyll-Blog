@@ -3,11 +3,10 @@ layout: default
 ---
 
 <div class="box">
-  <ul>
     {% for post in site.posts %}
-      <li>
-	<a href="{{ post.url | prepend: site.baseurl }}">"{{ post.title }}"</a> .:. {{ post.date | date: "%-d %b, %Y" }} .:. {{ post.excerpt }}  
-      </li>
+      <h3 class="posttitle"><a href="{{ post.url | prepend: site.baseurl }}">"{{ post.title }}"</a><br></h3>
+      {{ post.date | date: "%-d %B, %Y" }}<br>
+      {{ post.excerpt }}<br>
+      <hr class="short">
     {% endfor %}
-  </ul>
 </div>

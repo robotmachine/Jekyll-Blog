@@ -70,6 +70,17 @@ h3.post {
 	text-align: right;
 }
 
+h3.posttitle {
+	line-height: 15px;
+	color: #93a1a1;
+}
+
+hr.short {
+	color: #93a1a1;
+	width: 50%;
+	text-align: center;
+}
+
 /* Links */
 a:link {
 	color: #6c71c4;
