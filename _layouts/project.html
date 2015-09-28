@@ -1,7 +1,9 @@
 ---
 layout: default
+permalink: /projects/:year/:month/:day/:title.html
 ---
 </div>
-  <h1 class="post">{{ page.title }}</h1>
+  <h1 class="project">{{ page.title }}</h1>
 <div class="box">
+  {% if page.excerpt %}{{ page.excerpt }}{% endif %}
   {{ content }}

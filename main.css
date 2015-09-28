@@ -13,6 +13,9 @@ h1 {
 	font-size: 36px;
 }
 
+code  {
+}
+
 div.box {
 	margin:0px auto;
 	text-align:justify;
@@ -39,6 +42,14 @@ div.header {
 	padding-bottom: 15px;
 }
 
+div.footer {
+	width: 800px;
+	float: left;
+	position: fixed;
+	bottom: 0;
+}
+
+/* Not using this
 div.rtcol {
 	margin-left: 350px;
 	padding-left: 50px;
@@ -49,42 +60,29 @@ div.ltcol {
 	float: left;
 	width: 350px;
 }
+*/
 
-div.footer {
-	width: 800px;
-	float: left;
-	position: fixed;
-	bottom: 0;
+/* Blog */
+
+h1.blog {
 }
 
-/* Posts */
-
-span.posttitle {
-	font-size: +2;
+span.blogtitle {
 	color: #93a1a1;
 }
 
-span.postdate {
+span.blogdate {
 	color: #93a1a1;
 }
 
-span.postex {
-	line-height: 15px;
+/* Project */
+
+h1.project {
 }
 
-hr.short {
-	color: #93a1a1;
-	width: 50%;
-	align: left;
-	margin-left: 0;
-}
-
-.alignleft {
-	float: left;
-}
-
-.alighnright {
-	float: right;
+span.projtitle {
+	font-size: 115%;
+	display: inline-block;
 }
 
 /* Links */

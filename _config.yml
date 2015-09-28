@@ -8,5 +8,4 @@ url: "https://robotmachine.github.io"
 username: robotmachine
 
 # Build settings
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title.html
+markdown: redcarpet

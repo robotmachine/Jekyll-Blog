@@ -1,0 +1,9 @@
+---
+layout: blog
+title: Blog Posts
+---
+    {% for blog in site.categories.blog %}
+      <span class="blogdate">{{ blog.date | date: "%-d %b, %Y" }} :: </span>
+      <span class="blogtitle"><abbr title="{{ blog.excerpt }}"><a href="{{ blog.url | prepend: site.url }}">{{ blog.title }}</a></abbr></span>
+      {% if forloop.last == false %}<br>{% endif %}
+    {% endfor %}
