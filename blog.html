@@ -1,12 +1,12 @@
 ---
 layout: default
+title: Blog Posts
 ---
-
-<div class="box">
-    {% for post in site.posts %}
-      <h3 class="posttitle"><a href="{{ post.url | prepend: site.baseurl }}">"{{ post.title }}"</a><br></h3>
-      {{ post.date | date: "%-d %B, %Y" }}<br>
-      {{ post.excerpt }}<br>
-      <hr class="short">
-    {% endfor %}
 </div>
+  <h1 class="post">{{ page.title }}</h1>
+  <div class="box">
+    {% for post in site.posts %}
+      <span class="postdate">{{ post.date | date: "%-d %b, %Y" }} :: </span>
+      <span class="posttitle"><abbr title="{{ post.excerpt }}"><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></abbr></span>
+      {% if forloop.last == false %}<br>{% endif %}
+    {% endfor %}

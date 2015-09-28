@@ -59,26 +59,32 @@ div.footer {
 
 /* Posts */
 
-h1.post {
-	line-height: 15px;
+span.posttitle {
+	font-size: +2;
 	color: #93a1a1;
-	text-align: left;
 }
 
-h3.post {
+span.postdate {
 	color: #93a1a1;
-	text-align: right;
 }
 
-h3.posttitle {
+span.postex {
 	line-height: 15px;
-	color: #93a1a1;
 }
 
 hr.short {
 	color: #93a1a1;
 	width: 50%;
-	text-align: center;
+	align: left;
+	margin-left: 0;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alighnright {
+	float: right;
 }
 
 /* Links */
