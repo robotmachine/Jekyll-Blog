@@ -1,8 +1,8 @@
 ---
-layout: project
+layout: post
 title: Projects
 ---
     {% for project in site.categories.projects %}
-      <span class="projtitle"><a href="{{ project.url | prepend: site.url }}">{{ project.title }}</a>&mdash;</span> {{ project.excerpt }}
+      <a href="{{ project.url | prepend: site.url }}">{{ project.title }}</a>&mdash; {{ project.excerpt }}
       {% if forloop.last == false %}<br>{% endif %}
     {% endfor %}
