@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title:  "Big Brother"
 excerpt: How I felt when the new baby was born.
 date:   2014-06-15
