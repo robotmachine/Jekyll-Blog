@@ -2,7 +2,9 @@
 layout: post
 title: Projects
 ---
+<p>
     {% for project in site.categories.projects %}
       <a href="{{ project.url | prepend: site.url }}">{{ project.title }}</a>&mdash; {{ project.excerpt }}
       {% if forloop.last == false %}<br>{% endif %}
     {% endfor %}
+</p>

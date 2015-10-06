@@ -1,9 +1,11 @@
 ---
+layout_name: project
 layout: default
-permalink: /projects/:year/:month/:day/:title.html
+permalink: /projects/:title.html
 ---
-</div>
-  <h1 class="project">{{ page.title }}</h1>
-<div class="box">
+<div class="box"> &nbsp; </div>
+  <h1 class="post"><a href="https://github.com/{{ site.username }}/{{ page.title }}">{{ page.title }}</a> {% if page.version %} | Version {{ page.version }}{% endif %}</h1>
   {% if page.excerpt %}{{ page.excerpt }}{% endif %}
+<div class="box">
   {{ content }}
+</div>

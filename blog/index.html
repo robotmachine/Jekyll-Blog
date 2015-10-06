@@ -2,7 +2,9 @@
 layout: post
 title: Blog Posts
 ---
+<p>
     {% for blog in site.categories.blog %}
       {{ blog.date | date: "%-d %b, %Y" }} :: <abbr title="{{ blog.excerpt }}"><a href="{{ blog.url | prepend: site.url }}">{{ blog.title }}</a></abbr>
       {% if forloop.last == false %}<br>{% endif %}
     {% endfor %}
+</p>
