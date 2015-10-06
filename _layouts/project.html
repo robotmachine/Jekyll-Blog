@@ -4,8 +4,9 @@ layout: default
 permalink: /projects/:title.html
 ---
 <div class="box"> &nbsp; </div>
-  <h1 class="post"><a href="https://github.com/{{ site.username }}/{{ page.title }}">{{ page.title }}</a> {% if page.version %} | Version {{ page.version }}{% endif %}</h1>
-  {% if page.excerpt %}{{ page.excerpt }}{% endif %}
+  <h1 class="post">{{ page.title }}</a> {% if page.version %} | Version {{ page.version }}{% endif %}</h1>
+  {% if page.excerpt %}{{ page.excerpt }}<br>{% endif %}
+  <a href="https://github.com/{{ site.username }}/{{ page.title }}">View {{ page.title }} on Github</a>
 <div class="box">
   {{ content }}
 </div>
