@@ -1,0 +1,15 @@
+---
+layout: post
+title: Recent Posts
+---
+<p>{% for blog in site.categories.blog limit:1 %}
+  <h2>{{ blog.date | date: "%d %b, %Y" }} :: <abbr title="{{ blog.excerpt }}"><a href="{{ blog.url | prepend: site.url }}">{{ blog.title }}</a></abbr></h2>
+  {{ blog.content }}
+{% endfor %}</p>
+<p>{% for blog in site.categories.blog limit:4 offset:1 %}
+  <hr class="short">
+  <h2>{{ blog.date | date: "%d %b, %Y" }} :: <abbr title="{{ blog.excerpt }}"><a href="{{ blog.url | prepend: site.url }}">{{ blog.title }}</a></abbr></h2>
+  {{ blog.content | truncatewords: 60 }}
+  <a href="{{ blog.url | prepend: site.url }}">Continue Reading -></a>
+{% endfor %}</p>
+<a href="{{ blog.url | prepend: site.url }}/blog/archive.html">Blog Archive</a>
