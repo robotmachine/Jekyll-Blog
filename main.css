@@ -59,6 +59,11 @@ div.box {
 	-moz-box-shadow: 0 0 6px #eee8d5;
 }
 
+hr.short {
+	align: center;
+	width: 75%;
+}
+ 
 /* Not using this
 div.rtcol {
 	margin-left: 350px;
