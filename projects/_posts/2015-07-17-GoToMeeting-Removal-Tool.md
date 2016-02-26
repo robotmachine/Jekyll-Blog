@@ -5,6 +5,7 @@ projname: GoToMeeting-Removal-Tool
 version: 1.2 
 excerpt: Unofficial GoToMeeting Removal Tool for OSX
 lang: bash&nbsp;&nbsp;&nbsp;&nbsp;
+github: http://robotmachine.github.io/GoToMeeting-Removal-Tool
 ---
 
 ### Supported Products:  

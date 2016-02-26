@@ -5,6 +5,7 @@ projname: GoToLogFiles
 version: 1.2 
 excerpt: Unofficial OSX Log File Collector for Citrix SaaS Products
 lang: bash&nbsp;&nbsp;&nbsp;&nbsp;
+github: http://robotmachine.github.io/GoToLogFiles
 ---
 
 ### Supported Products:  

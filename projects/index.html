@@ -4,7 +4,7 @@ title: Projects
 ---
 <p>
     {% for project in site.categories.projects %}
-      {{ project.lang }} :: <abbr title="{{ project.excerpt }}"><a href="{{ project.url | prepend: site.url }}">{{ project.title }}</a></abbr>
+      {{ project.lang }} :: <abbr title="{{ project.excerpt }}"><a href="{{ project.github }}">{{ project.title }}</a></abbr>
       {% if forloop.last == false %}<br>{% endif %}
     {% endfor %}
 </p>
