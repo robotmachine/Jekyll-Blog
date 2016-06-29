@@ -1,0 +1,10 @@
+---
+layout: post
+title: Recipe Book
+---
+<p>
+    {% for recipe in site.categories.recipes %}
+      {{ recipe.date | date: "%d %b, %Y" }} :: <abbr title="{{ recipe.excerpt }}"><a href="{{ recipe.url | prepend: site.url }}">{{ recipe.title }}</a></abbr>
+      {% if forloop.last == false %}<br>{% endif %}
+    {% endfor %}
+</p>
