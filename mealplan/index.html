@@ -1,0 +1,10 @@
+---
+layout: post
+title: Meal Plan
+---
+<p>
+    {% for plan in site.categories.mealplan %}
+      {{ plan.date | date: "%d %b, %Y" }} :: <abbr title="{{ plan.excerpt }}"><a href="{{ plan.url | prepend: site.url }}">{{ plan.title }}</a></abbr>
+      {% if forloop.last == false %}<br>{% endif %}
+    {% endfor %}
+</p>
