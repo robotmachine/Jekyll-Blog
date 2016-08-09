@@ -2,10 +2,15 @@
 layout: post
 title: About
 ---
-Hi. My name is Brian.  
+Hello, my name is Brian.  
+This is a place where I infrequently write about myself.  
 
-You can follow me on [Twitter](https://twitter.com/{{ site.username }}), [Github](https://github.com/{{ site.username }}), or [Flickr](https://flickr.com/photos/{{ site.username }})
+### Internet Places
+* [Github](https://github.com/{{ site.username }})
+* [Twitter](https://twitter.com/{{ site.username }})
   
-I made this site using [vim](http://vim.org) and [Jekyll](http://jekyllrb.com)  
-You can see the source [on Github](https://github.com/robotmachine/Jekyll-Blog)  
-The colour is [Solarized](http://ethanschoonover.com/solarized) by Ethan Schoonover  
+### Colophon
+* [vim](http://vim.org) Text Editor
+* [Jekyll](http://jekyllrb.com)
+* [Blog Source](https://github.com/robotmachine/Jekyll-Blog)  
+* [Solarized](http://ethanschoonover.com/solarized) by Ethan Schoonover (Colour Scheme)
